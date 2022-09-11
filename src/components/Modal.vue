@@ -7,12 +7,10 @@
          <p>{{ theme }}</p> -->
 
          <!-- slot  -->
-         <!-- <slot></slot>
+         <slot></slot>
          <div class="action">
             <slot name="links"></slot>
-         </div> -->
-
-         <slot></slot>
+         </div>
 
 		</div>
 	</div>
@@ -40,7 +38,7 @@ export default {
    }
 
    .backdrop {
-      top: 0;
+      top: 0; 
       position: fixed;
       background: rgba(0,0,0,0.5);
       width: 100%;
